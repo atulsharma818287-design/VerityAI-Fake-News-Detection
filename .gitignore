@@ -1,0 +1,16 @@
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+users.db
+
+# Local datasets and trained model artifacts
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Editor files
+.vscode/
